@@ -1,0 +1,45 @@
+.bottom-sheet {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #cfcfcf;
+  color: #000000;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  z-index: 1000;
+  width: 90%;
+  height: 50vh;
+  overflow-y: auto;
+}
+
+.property-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.close-button {
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* index.css */
+.show-list-button {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ff5a5f; 
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 500;
+}
